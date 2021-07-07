@@ -1,1 +1,1 @@
-web: gunicorn main:app --preload
+FLASK_APP=dont_panic.py flask run
