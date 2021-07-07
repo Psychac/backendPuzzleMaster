@@ -1,1 +1,1 @@
-FLASK_APP=dont_panic.py flask run
+web: python app.py
