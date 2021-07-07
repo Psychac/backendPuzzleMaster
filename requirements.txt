@@ -1,4 +1,4 @@
-opencv_python==4.5.1.48
+opencv-python-headless==4.2.0.32
 requests==2.25.1
 click==7.1.2
 Flask==1.1.2
