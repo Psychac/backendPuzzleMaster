@@ -35,10 +35,6 @@ cubestring = {}
 
 @app.route('/', methods=['GET','POST'])
 def function():
-  img = request.files['image']
-  img.save(img.filename)
-  data = request.form.to_dict()
-  print(data)
   return jsonify({"msg" : True})
 
 @app.route('/calibratePallete', methods=['GET','POST'])
