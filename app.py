@@ -153,7 +153,8 @@ def reset_app():
 
    calibrated_colors.clear()
    notations.clear()
-   cubestring.clear() 
+   cubestring.clear()
+   colors_per_square.clear()
 
    return jsonify({'msg':'Reset Successful'})
 
