@@ -1,2 +1,2 @@
 # backendPuzzleMaster
-Testing for deployment for now
+Backend of puzzlemaster application.
